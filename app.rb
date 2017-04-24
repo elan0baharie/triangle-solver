@@ -8,6 +8,7 @@ get('/') do
 end
 
 get('/triangle') do
+  
   @answer = "Hi"
   erb(:result)
 end
